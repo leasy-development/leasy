@@ -27,3 +27,7 @@ name = "python"
 
   [analyzers.meta]
   runtime_version = "3.x.x"
+
+git add .deepsource.toml
+git commit -m "Fix DeepSource: enable TypeScript analyzer"
+git push
